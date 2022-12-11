@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+header{
+  font-family: 'Great Vibes', cursive;
+}
+header h1{
+  text-align: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eaf4f4;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #cce3de;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: #6b9080;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color:#6b9080;
+  color:white;
+}
+
+main, header{
+  color: red
+}
+
+main
+{
+  width: 70%;
+  text-align: center;
+    margin: auto;
+    font-size:1.2em;
+}
+
+/* On screens that are 600px wide or less, make the main section 90% insted of 70% */
+@media screen and (max-width: 600px) {
+  main
+  {
+    width: 90%;
+  }
+}
